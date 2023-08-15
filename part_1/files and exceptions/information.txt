@@ -1,0 +1,95 @@
+1. Sintaxis Básica:
+Indentación:
+En Python, la indentación es crucial para definir bloques de código. No se utilizan llaves {} como en otros lenguajes de programación. Un bloque de código se define mediante el nivel de indentación.
+
+python
+Copy code
+if condicion:
+    # Bloque 1
+    accion1
+    accion2
+else:
+    # Bloque 2
+    accion3
+Variables y Tipos de Datos:
+Python es de tipado dinámico, lo que significa que no necesitas declarar explícitamente el tipo de variable.
+
+python
+Copy code
+numero = 10
+cadena = "Hola, mundo"
+flotante = 3.14
+booleano = True
+Listas, Tuplas y Diccionarios:
+python
+Copy code
+lista = [1, 2, 3]
+tupla = (1, 2, 3)
+diccionario = {'clave1': 'valor1', 'clave2': 'valor2'}
+2. Estructuras de Control:
+Condicionales:
+python
+Copy code
+if condicion:
+    # código si es verdadero
+elif otra_condicion:
+    # código si es verdadero
+else:
+    # código si es falso
+Bucles:
+Bucle For:
+python
+Copy code
+for elemento in lista:
+    # código a repetir
+Bucle While:
+python
+Copy code
+while condicion:
+    # código a repetir
+3. Funciones:
+Definir Funciones:
+python
+Copy code
+def mi_funcion(parametro1, parametro2):
+    # código de la función
+    return resultado
+Funciones Lambda:
+python
+Copy code
+doble = lambda x: x * 2
+4. Módulos y Paquetes:
+Importar Módulos:
+python
+Copy code
+import modulo
+from modulo import funcion
+Crear Módulos Propios:
+Crea un archivo mi_modulo.py y define funciones o variables en él.
+
+5. Manipulación de Archivos:
+Leer Archivos:
+python
+Copy code
+with open("archivo.txt", "r") as archivo:
+    contenido = archivo.read()
+Escribir en Archivos:
+python
+Copy code
+with open("archivo.txt", "w") as archivo:
+    archivo.write("Hola, mundo!")
+6. Excepciones:
+Manejo de Excepciones:
+python
+Copy code
+try:
+    # código que puede causar excepciones
+except TipoDeExcepcion as error:
+    # manejo de la excepción
+finally:
+    # código que se ejecuta siempre
+Estas son algunas de las lecciones clave sobre la sintaxis y características especiales de Python. ¡Espero que te sean útiles en tu programación! Si tienes preguntas específicas o necesitas más ejemplos, no dudes en preguntar.
+
+
+
+

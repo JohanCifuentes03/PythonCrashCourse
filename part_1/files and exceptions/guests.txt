@@ -1,0 +1,3 @@
+guest: johan information: {'language': 'python', 'age': 19},
+guest: danna information: {'language': 'c++', 'age': 19},
+guest: jona information: {'language': 'java', 'age': 22},
